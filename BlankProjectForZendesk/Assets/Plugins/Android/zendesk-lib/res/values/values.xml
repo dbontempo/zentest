@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="reference" name="RateMyAppButtonStyle"/>
+    <attr format="reference|dimension" name="RateMyAppDividerHeight"/>
+    <attr format="reference" name="RateMyAppDividerStyle"/>
+    <attr format="reference|dimension" name="RateMyAppPaddingBottom"/>
+    <attr format="reference|dimension" name="RateMyAppPaddingTop"/>
+    <attr format="reference" name="RateMyAppTitleStyle"/>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/support_styles.xml -->
+    <eat-comment/>
+    <color name="article_attachment_list_divider_color">#E5E5E5</color>
+    <color name="article_attachment_row_background_color">#F1F1F1</color>
+    <color name="articles_list_divider_color">#e5e5e5</color>
+    <color name="articles_list_retry_button_text_color">@android:color/primary_text_light</color>
+    <color name="articles_search_secondary_text_color">#ababab</color>
+    <color name="categories_list_divider_color">#e5e5e5</color>
+    <color name="categories_list_retry_button_text_color">@android:color/primary_text_light</color>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/contact_us_styles.xml -->
+    <eat-comment/>
+    <color name="contact_fragment_seperator_body">#F1F1F1</color>
+    <color name="contact_fragment_seperator_border_color">#E5E5E5</color>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/rate_my_app_styles.xml -->
+    <eat-comment/>
+    <color name="feedback_container">#ededed</color>
+    <color name="feedback_divider">#e5e5e5</color>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/in_app_notification_styles.xml -->
+    <eat-comment/>
+    <color name="no_network_view_container_background_color">#434343</color>
+    <color name="no_network_view_separator_color">@android:color/black</color>
+    <color name="no_network_view_text_color">@android:color/white</color>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/requests_styles.xml -->
+    <eat-comment/>
+    <color name="request_error_message">#ff0000</color>
+    <color name="request_list_divider_color">#e5e5e5</color>
+    <color name="request_list_primary_text_color">#434343</color>
+    <color name="request_list_retry_button_text_color">@android:color/primary_text_light</color>
+    <color name="request_list_row_background_color">@android:color/white</color>
+    <color name="request_list_secondary_text_color">#ababab</color>
+    <color name="request_list_unread_indicator_color">#659700</color>
+    <color name="request_view_comment_list_divider">@android:color/darker_gray</color>
+    <color name="request_view_end_user_response_background">#F8F8F8</color>
+    <color name="request_view_spacer_background">#F1F1F1</color>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/in_app_notification_styles.xml -->
+    <eat-comment/>
+    <color name="retry_view_container_background_color">#434343</color>
+    <color name="retry_view_separator_color">@android:color/black</color>
+    <color name="retry_view_text_color">@android:color/white</color>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/support_styles.xml -->
+    <eat-comment/>
+    <color name="sections_list_divider_color">#e5e5e5</color>
+    <color name="sections_list_retry_button_text_color">@android:color/primary_text_light</color>
+    <color name="support_error_message">#ff0000</color>
+    <color name="support_list_separator_body">#F1F1F1</color>
+    <color name="support_list_separator_border_color">#E5E5E5</color>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/support_styles.xml -->
+    <eat-comment/>
+    <dimen name="article_attachment_list_divider_height">2px</dimen>
+    <dimen name="article_attachment_row_filename_margin_left">16dp</dimen>
+    <dimen name="article_attachment_row_filename_margin_right">8dp</dimen>
+    <dimen name="article_attachment_row_filesize_margin_right">16dp</dimen>
+    <dimen name="article_attachment_row_minimum_height">65dp</dimen>
+    <dimen name="articles_list_divider_height">2px</dimen>
+    <dimen name="articles_list_error_container_horizontal_padding">16dp</dimen>
+    <dimen name="articles_list_error_container_vertical_padding">16dp</dimen>
+    <dimen name="articles_search_results_list_error_container_horizontal_padding">16dp</dimen>
+    <dimen name="articles_search_results_list_error_container_vertical_padding">16dp</dimen>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/attachment_styles.xml -->
+    <eat-comment/>
+    <dimen name="attachment_container_host_horizontal_height">180dp</dimen>
+    <dimen name="attachment_container_host_horizontal_margin">0dp</dimen>
+    <dimen name="attachment_container_host_vertical_margin">0dp</dimen>
+    <dimen name="attachment_container_image_margin">8dp</dimen>
+    <dimen name="attachment_container_progress_bar_height">30dp</dimen>
+    <dimen name="attachment_container_progress_bar_width">30dp</dimen>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="attachments_horizontal_margin">16dp</dimen>
+    <dimen name="attachments_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/support_styles.xml -->
+    <eat-comment/>
+    <dimen name="categories_list_divider_height">2px</dimen>
+    <dimen name="categories_list_error_container_horizontal_padding">16dp</dimen>
+    <dimen name="categories_list_error_container_vertical_padding">16dp</dimen>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/contact_us_styles.xml -->
+    <eat-comment/>
+    <dimen name="contact_fragment_progress_height">30dp</dimen>
+    <dimen name="contact_fragment_progress_width">30dp</dimen>
+    <dimen name="contact_fragment_separator_height">2px</dimen>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/in_app_notification_styles.xml -->
+    <eat-comment/>
+    <dimen name="no_network_view_bottom_padding">16dp</dimen>
+    <dimen name="no_network_view_separator_height">2px</dimen>
+    <dimen name="no_network_view_top_padding">16dp</dimen>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/requests_styles.xml -->
+    <eat-comment/>
+    <dimen name="request_list_divider_height">2px</dimen>
+    <dimen name="request_list_error_container_horizontal_padding">16dp</dimen>
+    <dimen name="request_list_error_container_vertical_padding">16dp</dimen>
+    <dimen name="request_list_row_date_padding_top">8dp</dimen>
+    <dimen name="request_list_row_date_text_size">12sp</dimen>
+    <dimen name="request_list_row_description_text_size">14sp</dimen>
+    <dimen name="request_list_row_horizontal_padding">16dp</dimen>
+    <dimen name="request_list_row_minimum_height">90dp</dimen>
+    <dimen name="request_list_row_vertical_padding">16dp</dimen>
+    <dimen name="request_list_unread_indicator_size">6dp</dimen>
+    <dimen name="request_progress_height">30dp</dimen>
+    <dimen name="request_progress_width">30dp</dimen>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/in_app_notification_styles.xml -->
+    <eat-comment/>
+    <dimen name="retry_view_bottom_padding">16dp</dimen>
+    <dimen name="retry_view_button_layout_height">32dp</dimen>
+    <dimen name="retry_view_button_layout_width">65dp</dimen>
+    <dimen name="retry_view_button_margin_bottom">16dp</dimen>
+    <dimen name="retry_view_button_margin_right">16dp</dimen>
+    <dimen name="retry_view_button_margin_top">16dp</dimen>
+    <dimen name="retry_view_button_textsize">12sp</dimen>
+    <dimen name="retry_view_left_padding">16dp</dimen>
+    <dimen name="retry_view_right_padding">16dp</dimen>
+    <dimen name="retry_view_separator_height">2px</dimen>
+    <dimen name="retry_view_textview_textsize">14sp</dimen>
+    <dimen name="retry_view_top_padding">16dp</dimen>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/rate_my_app_styles.xml -->
+    <eat-comment/>
+    <dimen name="rma_button_text">16sp</dimen>
+    <dimen name="rma_divider_height">1px</dimen>
+    <dimen name="rma_edit_text">18sp</dimen>
+    <dimen name="rma_progress_height">20dp</dimen>
+    <dimen name="rma_progress_width">20dp</dimen>
+    <dimen name="rma_subtitle_text">14sp</dimen>
+    <dimen name="rma_title_text">22sp</dimen>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/support_styles.xml -->
+    <eat-comment/>
+    <dimen name="row_search_article_breadcrumb_text_size">8sp</dimen>
+    <dimen name="row_search_article_row_height">65dp</dimen>
+    <dimen name="row_search_article_title_left_margin">16dp</dimen>
+    <dimen name="row_search_article_title_right_margin">16dp</dimen>
+    <dimen name="sections_list_divider_height">2px</dimen>
+    <dimen name="sections_list_error_container_horizontal_padding">16dp</dimen>
+    <dimen name="sections_list_error_container_vertical_padding">16dp</dimen>
+    <dimen name="support_article_row_height">65dp</dimen>
+    <dimen name="support_article_title_left_margin">16dp</dimen>
+    <dimen name="support_article_title_right_margin">16dp</dimen>
+    <dimen name="support_category_row_height">65dp</dimen>
+    <dimen name="support_category_title_left_margin">16dp</dimen>
+    <dimen name="support_category_title_right_margin">16dp</dimen>
+    <dimen name="support_progress_height">30dp</dimen>
+    <dimen name="support_progress_width">30dp</dimen>
+    <dimen name="support_search_input_bottom_margin">16dp</dimen>
+    <dimen name="support_search_input_horizontal_margin">16dp</dimen>
+    <dimen name="support_search_input_top_margin">24dp</dimen>
+    <dimen name="support_section_row_height">65dp</dimen>
+    <dimen name="support_section_title_left_margin">16dp</dimen>
+    <dimen name="support_section_title_right_margin">16dp</dimen>
+    <dimen name="view_article_details_text_bottom_margin">16dp</dimen>
+    <dimen name="view_article_details_text_left_margin">16dp</dimen>
+    <dimen name="view_article_details_text_right_margin">16dp</dimen>
+    <dimen name="view_article_details_text_top_margin">16dp</dimen>
+    <dimen name="view_article_title_text_bottom_margin">16dp</dimen>
+    <dimen name="view_article_title_text_left_margin">16dp</dimen>
+    <dimen name="view_article_title_text_right_margin">16dp</dimen>
+    <dimen name="view_article_title_text_top_margin">24dp</dimen>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="view_horizontal_margin">8dp</dimen>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/requests_styles.xml -->
+    <eat-comment/>
+    <dimen name="view_request_comment_avatar_size">50dp</dimen>
+    <dimen name="view_request_comment_list_separator_height">2px</dimen>
+    <dimen name="view_request_comment_send_button_size">30dp</dimen>
+    <dimen name="view_request_content_margin">8dp</dimen>
+    <dimen name="view_request_horizontal_margin">16dp</dimen>
+    <dimen name="view_request_separator_height">4dp</dimen>
+    <dimen name="view_request_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="view_vertical_margin">8dp</dimen>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/drawables.xml -->
+    <eat-comment/>
+    <drawable name="articles_list_retry_button_background">@android:drawable/btn_default</drawable>
+    <drawable name="categories_list_retry_button_background">@android:drawable/btn_default</drawable>
+    <drawable name="request_list_retry_button_background">@android:drawable/btn_default</drawable>
+    <drawable name="sections_list_retry_button_background">@android:drawable/btn_default</drawable>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="rma_dialog_root" type="id"/>
+    <item name="rma_dont_ask_again" type="id"/>
+    <item name="rma_feedback_button" type="id"/>
+    <item name="rma_store_button" type="id"/>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/string-noi18n.xml -->
+    <eat-comment/>
+    <string name="app_name" ns1:ignore="MissingTranslation">Zendesk SDK</string>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="articles_list_fragment_error_message">Failed to get articles</string>
+    <string name="articles_list_fragment_no_articles_found">No articles found</string>
+    <string name="articles_search_results_list_fragment_contact_us">Contact support</string>
+    <string name="articles_search_results_list_fragment_error_message">Something went wrong</string>
+    <string name="articles_search_results_list_fragment_no_articles_found">No results found</string>
+    <string name="asdk_attachment_add_menu">Attachments</string>
+    <string name="asdk_attachment_select_source_choose_existing">Choose existing</string>
+    <string name="asdk_attachment_select_source_new_photo">Take a photo</string>
+    <string name="asdk_attachment_upload_error_cancel">Cancel</string>
+    <string name="asdk_attachment_upload_error_file_already_added">File already added</string>
+    <string name="asdk_attachment_upload_error_file_not_found">File not found</string>
+    <string name="asdk_attachment_upload_error_file_too_big">Max attachment size is %s</string>
+    <string name="asdk_attachment_upload_error_try_again">Try again</string>
+    <string name="asdk_attachment_upload_error_upload_failed">Attachment failed to upload</string>
+    <string name="categories_list_fragment_error_message">Failed to get categories</string>
+    <string name="categories_list_fragment_no_categories_found">No categories found</string>
+    <string name="contact_fragment_description_hint">Describe the issue you are having</string>
+    <string name="contact_fragment_email_hint">Email</string>
+    <string name="contact_fragment_email_validation_error">Incorrect email address</string>
+    <string name="contact_fragment_send_button_label">Done</string>
+    <string name="contact_fragment_title">Contact us</string>
+    <string name="network_activity_no_connectivity">No connection</string>
+    <string name="rate_my_app_dialog_dismiss_action_label">Don\'t ask me again</string>
+    <string name="rate_my_app_dialog_feedback_description_label">We want to make it better. Please tell us about any issues you\'re having.</string>
+    <string name="rate_my_app_dialog_feedback_device_api_version">OS API: %1$d</string>
+    <string name="rate_my_app_dialog_feedback_device_memory">Memory: %1$sMB / %2$sMB</string>
+    <string name="rate_my_app_dialog_feedback_device_model">Model: %1$s</string>
+    <string name="rate_my_app_dialog_feedback_device_name">Device: %1$s</string>
+    <string name="rate_my_app_dialog_feedback_device_os_version">OS version: %1$s</string>
+    <string name="rate_my_app_dialog_feedback_request_subject">App feedback</string>
+    <string name="rate_my_app_dialog_feedback_send_error_no_connectivity_toast">No connection</string>
+    <string name="rate_my_app_dialog_feedback_send_error_toast">There was an error. Please try again.</string>
+    <string name="rate_my_app_dialog_feedback_send_success_toast">Thank you for contacting us</string>
+    <string name="rate_my_app_dialog_feedback_title_label">Sorry about that.</string>
+    <string name="rate_my_app_dialog_negative_action_label">No, send feedback</string>
+    <string name="rate_my_app_dialog_positive_action_label">Yes, rate our app</string>
+    <string name="rate_my_app_dialog_title_label">Are you happy with our app?</string>
+    <string name="rate_my_app_dialogue_feedback_cancel_button_label">Cancel</string>
+    <string name="rate_my_app_dialogue_feedback_issue_hint">Describe your issue</string>
+    <string name="rate_my_app_dialogue_feedback_send_button_label">Send feedback</string>
+    <string name="request_list_activity_title">My tickets</string>
+    <string name="request_list_fragment_error_message">Failed to get tickets</string>
+    <string name="request_list_fragment_no_requests">No tickets currently open</string>
+    <string name="request_view_comment_entry_hint">Comment</string>
+    <string name="retry_view_button_label">Retry</string>
+    <string name="row_request_unread_indicator_alt">Icon indicating that there are unread comments</string>
+    <string name="sections_list_fragment_error_message">Failed to get sections</string>
+    <string name="sections_list_fragment_no_sections_found">No sections found</string>
+    <string name="support_activity_title">Support</string>
+    <string name="support_activity_unable_to_contact_support">Unable to contact support</string>
+    <string name="support_contact_menu">Contact</string>
+    <string name="support_conversations_menu">Conversations</string>
+    <string name="support_list_search_hint">How can we help?</string>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/string-noi18n.xml -->
+    <eat-comment/>
+    <string name="title_activity_rate_my_app_dialogue_test" ns1:ignore="UnusedResources,MissingTranslation">RateMyApp Dialogue Test</string>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="view_article_attachments_error">Failed to fetch attachments</string>
+    <string name="view_article_seperator">\u2022</string>
+    <string name="view_request_agent_avatar_imageview_alt">Agent\'s avatar</string>
+    <string name="view_request_load_comments_error">Failed to load comments</string>
+    <string name="view_request_send_comment_error">Failed to send comment</string>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ZendeskSdkTheme" parent="Theme.AppCompat.Light">
+        <item name="RateMyAppButtonStyle">@style/rma_button</item>
+        <item name="RateMyAppTitleStyle">@style/rma_title</item>
+        <item name="RateMyAppPaddingTop">@dimen/view_vertical_margin</item>
+        <item name="RateMyAppPaddingBottom">@dimen/view_vertical_margin</item>
+        <item name="RateMyAppDividerStyle">@style/rma_divider</item>
+        <item name="RateMyAppDividerHeight">@dimen/rma_divider_height</item>
+    </style>
+    <style name="ZendeskSdkTheme.Dark" parent="Theme.AppCompat">
+        <item name="RateMyAppButtonStyle">@style/rma_button</item>
+        <item name="RateMyAppTitleStyle">@style/rma_title</item>
+        <item name="RateMyAppPaddingTop">@dimen/view_vertical_margin</item>
+        <item name="RateMyAppPaddingBottom">@dimen/view_vertical_margin</item>
+        <item name="RateMyAppDividerStyle">@style/rma_divider</item>
+        <item name="RateMyAppDividerHeight">@dimen/rma_divider_height</item>
+
+    </style>
+    <style name="ZendeskSdkTheme.Light" parent="ZendeskSdkTheme">
+        <!-- Here for consistency -->
+    </style>
+    <style name="ZendeskSdkTheme.Light.DarkActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="RateMyAppButtonStyle">@style/rma_button</item>
+        <item name="RateMyAppTitleStyle">@style/rma_title</item>
+        <item name="RateMyAppPaddingTop">@dimen/view_vertical_margin</item>
+        <item name="RateMyAppPaddingBottom">@dimen/view_vertical_margin</item>
+        <item name="RateMyAppDividerStyle">@style/rma_divider</item>
+        <item name="RateMyAppDividerHeight">@dimen/rma_divider_height</item>
+    </style>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/requests_styles.xml -->
+    <eat-comment/>
+    <style name="_activity_requests_container">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/support_styles.xml -->
+    <eat-comment/>
+    <style name="_article_attachment_list">
+        <item name="android:divider">@color/article_attachment_list_divider_color</item>
+        <item name="android:dividerHeight">@dimen/article_attachment_list_divider_height</item>
+    </style>
+    <style name="_article_attachment_row_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:background">@color/article_attachment_row_background_color</item>
+        <item name="android:minHeight">@dimen/article_attachment_row_minimum_height</item>
+    </style>
+    <style name="_article_attachment_row_filename_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/article_attachment_row_filename_margin_left
+        </item>
+        <item name="android:layout_marginRight">
+            @dimen/article_attachment_row_filename_margin_right
+        </item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="_article_attachment_row_filesize_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">
+            @dimen/article_attachment_row_filesize_margin_right
+        </item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:maxEms">5</item>
+    </style>
+    <style name="_article_row_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/support_article_row_height</item>
+    </style>
+    <style name="_article_row_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/support_article_title_left_margin</item>
+        <item name="android:layout_marginRight">@dimen/support_article_title_right_margin</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="_articles_list_fragment_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="_articles_list_fragment_empty_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="_articles_list_fragment_error_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:paddingTop">@dimen/articles_list_error_container_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/articles_list_error_container_vertical_padding
+        </item>
+        <item name="android:paddingLeft">@dimen/articles_list_error_container_horizontal_padding
+        </item>
+        <item name="android:paddingRight">@dimen/articles_list_error_container_horizontal_padding
+        </item>
+    </style>
+    <style name="_articles_list_fragment_error_message">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/support_error_message</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="_articles_list_fragment_listview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:divider">@color/articles_list_divider_color</item>
+        <item name="android:dividerHeight">@dimen/articles_list_divider_height</item>
+    </style>
+    <style name="_articles_list_fragment_listview_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="_articles_list_fragment_progress" parent="@android:style/Widget.ProgressBar">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_height">@dimen/support_progress_height</item>
+        <item name="android:layout_width">@dimen/support_progress_width</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="_articles_list_fragment_retry_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/articles_list_retry_button_background</item>
+        <item name="android:textColor">@color/articles_list_retry_button_text_color</item>
+    </style>
+    <style name="_articles_search_results_list_fragment_contact_us">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="_articles_search_results_list_fragment_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="_articles_search_results_list_fragment_empty_container">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="_articles_search_results_list_fragment_empty_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="_articles_search_results_list_fragment_error_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:paddingTop">
+            @dimen/articles_search_results_list_error_container_vertical_padding
+        </item>
+        <item name="android:paddingBottom">
+            @dimen/articles_search_results_list_error_container_vertical_padding
+        </item>
+        <item name="android:paddingLeft">
+            @dimen/articles_search_results_list_error_container_horizontal_padding
+        </item>
+        <item name="android:paddingRight">
+            @dimen/articles_search_results_list_error_container_horizontal_padding
+        </item>
+    </style>
+    <style name="_articles_search_results_list_fragment_error_message">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/support_error_message</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="_articles_search_results_list_fragment_listview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:divider">@color/articles_list_divider_color</item>
+        <item name="android:dividerHeight">@dimen/articles_list_divider_height</item>
+    </style>
+    <style name="_articles_search_results_list_fragment_listview_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="_articles_search_results_list_fragment_progress" parent="@android:style/Widget.ProgressBar">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_height">@dimen/support_progress_height</item>
+        <item name="android:layout_width">@dimen/support_progress_width</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/attachment_styles.xml -->
+    <eat-comment/>
+    <style name="_attachment_container">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="_attachment_container_delete_btn">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">right|top</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:background">@drawable/drawable_remove_attachment</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+    <style name="_attachment_container_image">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="_attachment_container_progress">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_height">@dimen/attachment_container_progress_bar_height</item>
+        <item name="android:layout_width">@dimen/attachment_container_progress_bar_width</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="_attachment_source_dialog">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="_attachment_source_dialog_listview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="_attachment_source_dialog_row_image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_action_attachment</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    <style name="_attachment_source_dialog_row_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/support_styles.xml -->
+    <eat-comment/>
+    <style name="_categories_list_fragment_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="_categories_list_fragment_empty_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="_categories_list_fragment_error_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:paddingTop">@dimen/categories_list_error_container_vertical_padding
+        </item>
+        <item name="android:paddingBottom">@dimen/categories_list_error_container_vertical_padding
+        </item>
+        <item name="android:paddingLeft">@dimen/categories_list_error_container_horizontal_padding
+        </item>
+        <item name="android:paddingRight">
+            @dimen/categories_list_error_container_horizontal_padding
+        </item>
+    </style>
+    <style name="_categories_list_fragment_error_message">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/support_error_message</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="_categories_list_fragment_listview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:divider">@color/categories_list_divider_color</item>
+        <item name="android:dividerHeight">@dimen/categories_list_divider_height</item>
+    </style>
+    <style name="_categories_list_fragment_listview_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="_categories_list_fragment_progress" parent="@android:style/Widget.ProgressBar">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_height">@dimen/support_progress_height</item>
+        <item name="android:layout_width">@dimen/support_progress_width</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="_categories_list_fragment_retry_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/categories_list_retry_button_background</item>
+        <item name="android:textColor">@color/categories_list_retry_button_text_color</item>
+    </style>
+    <style name="_category_row_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/support_category_row_height</item>
+    </style>
+    <style name="_category_row_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/support_category_title_left_margin</item>
+        <item name="android:layout_marginRight">@dimen/support_category_title_right_margin</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/contact_us_styles.xml -->
+    <eat-comment/>
+    <style name="_contact_fragment_container">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="_contact_fragment_description">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">top|left</item>
+        <item name="android:minLines">3</item>
+        <item name="android:inputType">textMultiLine|textCapSentences</item>
+    </style>
+    <style name="_contact_fragment_email" parent="@android:style/Widget.AutoCompleteTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+    <style name="_contact_fragment_progress" parent="@android:style/Widget.ProgressBar">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_height">@dimen/contact_fragment_progress_height</item>
+        <item name="android:layout_width">@dimen/contact_fragment_progress_width</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="_contact_fragment_seperator_body">
+        <item name="android:layout_height">6dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/contact_fragment_seperator_body</item>
+    </style>
+    <style name="_contact_fragment_seperator_border">
+        <item name="android:layout_height">@dimen/contact_fragment_separator_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/contact_fragment_seperator_border_color</item>
+    </style>
+    <style name="_contact_fragment_seperator_container">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/in_app_notification_styles.xml -->
+    <eat-comment/>
+    <style name="_no_network_view_container">
+        <item name="android:background">@color/no_network_view_container_background_color</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <style name="_no_network_view_separator">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/no_network_view_separator_height</item>
+        <item name="android:background">@color/no_network_view_separator_color</item>
+    </style>
+    <style name="_no_network_view_text">
+        <item name="android:textColor">@color/no_network_view_text_color</item>
+        <item name="android:paddingTop">@dimen/no_network_view_top_padding</item>
+        <item name="android:paddingBottom">@dimen/no_network_view_bottom_padding</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/requests_styles.xml -->
+    <eat-comment/>
+    <style name="_request_list_fragment_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="_request_list_fragment_empty_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="_request_list_fragment_error_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:paddingTop">@dimen/request_list_error_container_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/request_list_error_container_vertical_padding
+        </item>
+        <item name="android:paddingLeft">@dimen/request_list_error_container_horizontal_padding
+        </item>
+        <item name="android:paddingRight">@dimen/request_list_error_container_horizontal_padding
+        </item>
+    </style>
+    <style name="_request_list_fragment_error_message">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/request_error_message</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="_request_list_fragment_listview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:divider">@color/request_list_divider_color</item>
+        <item name="android:dividerHeight">@dimen/request_list_divider_height</item>
+    </style>
+    <style name="_request_list_fragment_listview_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="_request_list_fragment_progress" parent="@android:style/Widget.ProgressBar">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_height">@dimen/request_progress_height</item>
+        <item name="android:layout_width">@dimen/rma_progress_width</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="_request_list_fragment_retry_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/request_list_retry_button_background</item>
+        <item name="android:textColor">@color/request_list_retry_button_text_color</item>
+    </style>
+    <style name="_request_list_row_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">@dimen/request_list_row_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/request_list_row_vertical_padding</item>
+        <item name="android:paddingLeft">@dimen/request_list_row_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/request_list_row_horizontal_padding</item>
+        <item name="android:background">@color/request_list_row_background_color</item>
+        <item name="android:minHeight">@dimen/request_list_row_minimum_height</item>
+    </style>
+    <style name="_request_list_row_request_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_toRightOf">@id/row_request_unread_indicator</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="_request_list_row_request_date">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/request_list_row_date_padding_top</item>
+        <item name="android:textSize">@dimen/request_list_row_date_text_size</item>
+        <item name="android:textColor">@color/request_list_secondary_text_color</item>
+    </style>
+    <style name="_request_list_row_request_description">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/request_list_row_description_text_size</item>
+        <item name="android:textColor">@color/request_list_primary_text_color</item>
+    </style>
+    <style name="_request_list_row_unread_indicator">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/in_app_notification_styles.xml -->
+    <eat-comment/>
+    <style name="_retry_view_button">
+        <item name="android:background">@drawable/outline_button</item>
+        <item name="android:textColor">@color/retry_view_text_color</item>
+        <item name="android:layout_marginRight">@dimen/retry_view_button_margin_right</item>
+        <item name="android:layout_marginTop">@dimen/retry_view_button_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/retry_view_button_margin_bottom</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">@dimen/retry_view_button_textsize</item>
+        <item name="android:layout_width">@dimen/retry_view_button_layout_width</item>
+        <item name="android:layout_height">@dimen/retry_view_button_layout_height</item>
+    </style>
+    <style name="_retry_view_container">
+        <item name="android:background">@color/retry_view_container_background_color</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <style name="_retry_view_separator">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/retry_view_separator_height</item>
+        <item name="android:background">@color/retry_view_separator_color</item>
+    </style>
+    <style name="_retry_view_text">
+        <item name="android:textColor">@color/retry_view_text_color</item>
+        <item name="android:paddingTop">@dimen/retry_view_top_padding</item>
+        <item name="android:paddingBottom">@dimen/retry_view_bottom_padding</item>
+        <item name="android:paddingLeft">@dimen/retry_view_left_padding</item>
+        <item name="android:paddingRight">@dimen/retry_view_right_padding</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textSize">@dimen/retry_view_textview_textsize</item>
+    </style>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/rate_my_app_styles.xml -->
+    <eat-comment/>
+    <style name="_rma_feedback_divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/rma_divider_height</item>
+        <item name="android:background">@color/feedback_divider</item>
+    </style>
+    <style name="_rma_feedback_issue_button_container">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:weightSum">5</item>
+    </style>
+    <style name="_rma_feedback_issue_cancel_button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:textSize">@dimen/rma_button_text</item>
+    </style>
+    <style name="_rma_feedback_issue_container">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/activity_vertical_margin</item>
+        <item name="android:background">@color/feedback_container</item>
+    </style>
+    <style name="_rma_feedback_issue_edittext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/rma_edit_text</item>
+        <item name="android:maxLines">5</item>
+        <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
+    </style>
+    <style name="_rma_feedback_issue_send_button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:textSize">@dimen/rma_button_text</item>
+    </style>
+    <style name="_rma_feedback_message_container">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+    <style name="_rma_feedback_message_subtitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/rma_subtitle_text</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="_rma_feedback_message_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/rma_title_text</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+    <style name="_rma_feedback_progress" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_small</item>
+        <item name="android:layout_height">@dimen/rma_progress_height</item>
+        <item name="android:layout_width">@dimen/rma_progress_width</item>
+        <item name="android:layout_marginBottom">6dp</item>
+    </style>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/support_styles.xml -->
+    <eat-comment/>
+    <style name="_row_search_article_breadcrumb">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/row_search_article_title_left_margin</item>
+        <item name="android:layout_marginRight">@dimen/row_search_article_title_right_margin</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@color/articles_search_secondary_text_color</item>
+        <item name="android:textSize">@dimen/row_search_article_breadcrumb_text_size</item>
+    </style>
+    <style name="_row_search_article_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/row_search_article_row_height</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="_row_search_article_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/row_search_article_title_left_margin</item>
+        <item name="android:layout_marginRight">@dimen/row_search_article_title_right_margin</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="_section_row_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/support_section_row_height</item>
+    </style>
+    <style name="_section_row_title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/support_section_title_left_margin</item>
+        <item name="android:layout_marginRight">@dimen/support_section_title_right_margin</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="_sections_list_fragment_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="_sections_list_fragment_empty_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="_sections_list_fragment_error_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:paddingTop">@dimen/sections_list_error_container_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/sections_list_error_container_vertical_padding
+        </item>
+        <item name="android:paddingLeft">@dimen/sections_list_error_container_horizontal_padding
+        </item>
+        <item name="android:paddingRight">@dimen/sections_list_error_container_horizontal_padding
+        </item>
+    </style>
+    <style name="_sections_list_fragment_error_message">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/support_error_message</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="_sections_list_fragment_listview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:divider">@color/sections_list_divider_color</item>
+        <item name="android:dividerHeight">@dimen/sections_list_divider_height</item>
+    </style>
+    <style name="_sections_list_fragment_listview_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="_sections_list_fragment_progress" parent="@android:style/Widget.ProgressBar">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_height">@dimen/support_progress_height</item>
+        <item name="android:layout_width">@dimen/support_progress_width</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="_sections_list_fragment_retry_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:background">@drawable/sections_list_retry_button_background</item>
+        <item name="android:textColor">@color/sections_list_retry_button_text_color</item>
+    </style>
+    <style name="_support_activity_progress" parent="@android:style/Widget.ProgressBar">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_height">@dimen/support_progress_height</item>
+        <item name="android:layout_width">@dimen/support_progress_width</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="_support_list_search_editor">
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="android:inputType">textFilter</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:hint">@string/support_list_search_hint</item>
+        <item name="android:layout_marginTop">@dimen/support_search_input_top_margin</item>
+        <item name="android:layout_marginLeft">@dimen/support_search_input_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/support_search_input_horizontal_margin</item>
+        <item name="android:layout_marginBottom">@dimen/support_search_input_bottom_margin</item>
+    </style>
+    <style name="_support_list_seperator_body">
+        <item name="android:layout_height">6dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/support_list_separator_body</item>
+    </style>
+    <style name="_support_list_seperator_border">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/support_list_separator_border_color</item>
+    </style>
+    <style name="_support_list_seperator_container">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="_support_search_input_container">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="_view_article_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+    <style name="_view_article_content_webview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="_view_article_details_progress" parent="@android:style/Widget.ProgressBar">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_height">@dimen/support_progress_height</item>
+        <item name="android:layout_width">@dimen/support_progress_width</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="_view_article_details_textview">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/view_article_details_text_top_margin</item>
+        <item name="android:layout_marginLeft">@dimen/view_article_details_text_left_margin</item>
+        <item name="android:layout_marginRight">@dimen/view_article_details_text_right_margin</item>
+        <item name="android:layout_marginBottom">@dimen/view_article_details_text_bottom_margin
+        </item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <style name="_view_article_title_textview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/view_article_title_text_top_margin</item>
+        <item name="android:layout_marginLeft">@dimen/view_article_title_text_left_margin</item>
+        <item name="android:layout_marginRight">@dimen/view_article_title_text_right_margin</item>
+        <item name="android:layout_marginBottom">@dimen/view_article_title_text_bottom_margin</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/requests_styles.xml -->
+    <eat-comment/>
+    <style name="_view_request_agent_avatar_imageview">
+        <item name="android:layout_width">@dimen/view_request_comment_avatar_size</item>
+        <item name="android:layout_height">@dimen/view_request_comment_avatar_size</item>
+    </style>
+    <style name="_view_request_agent_date_textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="_view_request_agent_name_textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/view_request_content_margin</item>
+    </style>
+    <style name="_view_request_agent_response_container">
+        <item name="android:layout_marginTop">@dimen/view_request_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/view_request_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/view_request_horizontal_margin</item>
+        <item name="android:layout_marginBottom">@dimen/view_request_vertical_margin</item>
+    </style>
+    <style name="_view_request_agent_response_textview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="_view_request_agent_row">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+    <style name="_view_request_comment_attachment_button">
+        <item name="android:layout_width">@dimen/view_request_comment_send_button_size</item>
+        <item name="android:layout_height">@dimen/view_request_comment_send_button_size</item>
+        <item name="android:background">@drawable/ic_action_attachment</item>
+        <item name="android:layout_marginLeft">@dimen/view_request_content_margin</item>
+        <item name="android:layout_marginRight">@dimen/view_request_horizontal_margin</item>
+    </style>
+    <style name="_view_request_comment_container">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+    <style name="_view_request_comment_edittext">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/view_request_horizontal_margin</item>
+        <item name="android:layout_marginBottom">@dimen/view_request_content_margin</item>
+        <item name="android:maxLines">5</item>
+        <item name="android:hint">@string/request_view_comment_entry_hint</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="_view_request_comment_list">
+        <item name="android:divider">@color/request_view_comment_list_divider</item>
+        <item name="android:dividerHeight">@dimen/view_request_comment_list_separator_height</item>
+    </style>
+    <style name="_view_request_comment_send_button">
+        <item name="android:layout_width">@dimen/view_request_comment_send_button_size</item>
+        <item name="android:layout_height">@dimen/view_request_comment_send_button_size</item>
+        <item name="android:background">@android:drawable/ic_menu_send</item>
+        <item name="android:layout_marginLeft">@dimen/view_request_content_margin</item>
+        <item name="android:layout_marginRight">@dimen/view_request_horizontal_margin</item>
+    </style>
+    <style name="_view_request_end_user_avatar_imageview">
+        <item name="android:layout_width">@dimen/view_request_comment_avatar_size</item>
+        <item name="android:layout_height">@dimen/view_request_comment_avatar_size</item>
+    </style>
+    <style name="_view_request_end_user_date_textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="_view_request_end_user_name_textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/view_request_content_margin</item>
+    </style>
+    <style name="_view_request_end_user_response_row">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/request_view_end_user_response_background</item>
+    </style>
+    <style name="_view_request_end_user_response_textview">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/view_request_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/view_request_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/view_request_horizontal_margin</item>
+        <item name="android:layout_marginBottom">@dimen/view_request_content_margin</item>
+    </style>
+    <style name="_view_request_fragment_progress" parent="@android:style/Widget.ProgressBar">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_height">@dimen/request_progress_height</item>
+        <item name="android:layout_width">@dimen/request_progress_width</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="_view_request_separator">
+        <item name="android:layout_height">@dimen/view_request_separator_height</item>
+        <item name="android:background">@color/request_view_spacer_background</item>
+    </style>
+    <style name="_view_request_user_info_container">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/view_request_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/view_request_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/view_request_horizontal_margin</item>
+    </style>
+    <style name="activity_requests_container" parent="_activity_requests_container"/>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/support_styles.xml -->
+    <eat-comment/>
+    <style name="article_attachment_list" parent="_article_attachment_list"/>
+    <style name="article_attachment_row_container" parent="_article_attachment_row_container"/>
+    <style name="article_attachment_row_filename_text" parent="_article_attachment_row_filename_text"/>
+    <style name="article_attachment_row_filesize_text" parent="_article_attachment_row_filesize_text"/>
+    <style name="article_row_container" parent="_article_row_container"/>
+    <style name="article_row_title" parent="_article_row_title"/>
+    <style name="articles_list_fragment_container" parent="_articles_list_fragment_container"/>
+    <style name="articles_list_fragment_empty_view" parent="_articles_list_fragment_empty_view"/>
+    <style name="articles_list_fragment_error_container" parent="_articles_list_fragment_error_container"/>
+    <style name="articles_list_fragment_error_message" parent="_articles_list_fragment_error_message"/>
+    <style name="articles_list_fragment_listview" parent="_articles_list_fragment_listview"/>
+    <style name="articles_list_fragment_listview_container" parent="_articles_list_fragment_listview_container"/>
+    <style name="articles_list_fragment_progress" parent="_articles_list_fragment_progress"/>
+    <style name="articles_list_fragment_retry_button" parent="_articles_list_fragment_retry_button"/>
+    <style name="articles_search_results_list_fragment_contact_us" parent="_articles_search_results_list_fragment_contact_us"/>
+    <style name="articles_search_results_list_fragment_container" parent="_articles_search_results_list_fragment_container"/>
+    <style name="articles_search_results_list_fragment_empty_container" parent="_articles_search_results_list_fragment_empty_container"/>
+    <style name="articles_search_results_list_fragment_empty_view" parent="_articles_search_results_list_fragment_empty_view"/>
+    <style name="articles_search_results_list_fragment_error_container" parent="_articles_search_results_list_fragment_error_container"/>
+    <style name="articles_search_results_list_fragment_error_message" parent="_articles_search_results_list_fragment_error_message"/>
+    <style name="articles_search_results_list_fragment_listview" parent="_articles_search_results_list_fragment_listview"/>
+    <style name="articles_search_results_list_fragment_listview_container" parent="_articles_search_results_list_fragment_listview_container"/>
+    <style name="articles_search_results_list_fragment_progress" parent="_articles_search_results_list_fragment_progress"/>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/attachment_styles.xml -->
+    <eat-comment/>
+    <style name="attachment_container" parent="_attachment_container"/>
+    <style name="attachment_container_delete_btn" parent="_attachment_container_delete_btn"/>
+    <style name="attachment_container_image" parent="_attachment_container_image"/>
+    <style name="attachment_container_progress" parent="_attachment_container_progress"/>
+    <style name="attachment_source_dialog" parent="_attachment_source_dialog"/>
+    <style name="attachment_source_dialog_listview" parent="_attachment_source_dialog_listview"/>
+    <style name="attachment_source_dialog_row_image" parent="_attachment_source_dialog_row_image"/>
+    <style name="attachment_source_dialog_row_text" parent="_attachment_source_dialog_row_text"/>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/support_styles.xml -->
+    <eat-comment/>
+    <style name="categories_list_fragment_container" parent="_categories_list_fragment_container"/>
+    <style name="categories_list_fragment_empty_view" parent="_categories_list_fragment_empty_view"/>
+    <style name="categories_list_fragment_error_container" parent="_categories_list_fragment_error_container"/>
+    <style name="categories_list_fragment_error_message" parent="_categories_list_fragment_error_message"/>
+    <style name="categories_list_fragment_listview" parent="_categories_list_fragment_listview"/>
+    <style name="categories_list_fragment_listview_container" parent="_categories_list_fragment_listview_container"/>
+    <style name="categories_list_fragment_progress" parent="_categories_list_fragment_progress"/>
+    <style name="categories_list_fragment_retry_button" parent="_categories_list_fragment_retry_button"/>
+    <style name="category_row_container" parent="_category_row_container"/>
+    <style name="category_row_title" parent="_category_row_title"/>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/contact_us_styles.xml -->
+    <eat-comment/>
+    <style name="contact_fragment_container" parent="_contact_fragment_container"/>
+    <style name="contact_fragment_description" parent="_contact_fragment_description"/>
+    <style name="contact_fragment_email" parent="_contact_fragment_email"/>
+    <style name="contact_fragment_progress" parent="_contact_fragment_progress"/>
+    <style name="contact_fragment_seperator_body" parent="_contact_fragment_seperator_body"/>
+    <style name="contact_fragment_seperator_border" parent="_contact_fragment_seperator_border"/>
+    <style name="contact_fragment_seperator_container" parent="_contact_fragment_seperator_container"/>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/in_app_notification_styles.xml -->
+    <eat-comment/>
+    <style name="no_network_view_container" parent="_no_network_view_container"/>
+    <style name="no_network_view_separator" parent="_no_network_view_separator"/>
+    <style name="no_network_view_text" parent="_no_network_view_text"/>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/requests_styles.xml -->
+    <eat-comment/>
+    <style name="request_list_fragment_container" parent="_request_list_fragment_container"/>
+    <style name="request_list_fragment_empty_view" parent="_request_list_fragment_empty_view"/>
+    <style name="request_list_fragment_error_container" parent="_request_list_fragment_error_container"/>
+    <style name="request_list_fragment_error_message" parent="_request_list_fragment_error_message"/>
+    <style name="request_list_fragment_listview" parent="_request_list_fragment_listview"/>
+    <style name="request_list_fragment_listview_container" parent="_request_list_fragment_listview_container"/>
+    <style name="request_list_fragment_progress" parent="_request_list_fragment_progress"/>
+    <style name="request_list_fragment_retry_button" parent="_request_list_fragment_retry_button"/>
+    <style name="request_list_row_container" parent="_request_list_row_container"/>
+    <style name="request_list_row_request_container" parent="_request_list_row_request_container"/>
+    <style name="request_list_row_request_date" parent="_request_list_row_request_date"/>
+    <style name="request_list_row_request_description" parent="_request_list_row_request_description"/>
+    <style name="request_list_row_unread_indicator" parent="_request_list_row_unread_indicator"/>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/in_app_notification_styles.xml -->
+    <eat-comment/>
+    <style name="retry_view_button" parent="_retry_view_button"/>
+    <style name="retry_view_container" parent="_retry_view_container"/>
+    <style name="retry_view_separator" parent="_retry_view_separator"/>
+    <style name="retry_view_text" parent="_retry_view_text"/>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/rate_my_app_styles.xml -->
+    <eat-comment/>
+    <style name="rma_button">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="rma_divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/rma_divider_height</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+    <style name="rma_feedback_divider" parent="_rma_feedback_divider"/>
+    <style name="rma_feedback_issue_button_container" parent="_rma_feedback_issue_button_container"/>
+    <style name="rma_feedback_issue_cancel_button" parent="_rma_feedback_issue_cancel_button"/>
+    <style name="rma_feedback_issue_container" parent="_rma_feedback_issue_container"/>
+    <style name="rma_feedback_issue_edittext" parent="_rma_feedback_issue_edittext"/>
+    <style name="rma_feedback_issue_send_button" parent="_rma_feedback_issue_send_button"/>
+    <style name="rma_feedback_message_container" parent="_rma_feedback_message_container"/>
+    <style name="rma_feedback_message_subtitle" parent="_rma_feedback_message_subtitle"/>
+    <style name="rma_feedback_message_title" parent="_rma_feedback_message_title"/>
+    <style name="rma_feedback_progress" parent="_rma_feedback_progress"/>
+    <style name="rma_title" parent="rma_button">
+        <item name="android:textSize">@dimen/rma_title_text</item>
+    </style>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/support_styles.xml -->
+    <eat-comment/>
+    <style name="row_search_article_breadcrumb" parent="_row_search_article_breadcrumb"/>
+    <style name="row_search_article_container" parent="_row_search_article_container"/>
+    <style name="row_search_article_title" parent="_row_search_article_title"/>
+    <style name="section_row_container" parent="_section_row_container"/>
+    <style name="section_row_title" parent="_section_row_title"/>
+    <style name="sections_list_fragment_container" parent="_sections_list_fragment_container"/>
+    <style name="sections_list_fragment_empty_view" parent="_sections_list_fragment_empty_view"/>
+    <style name="sections_list_fragment_error_container" parent="_sections_list_fragment_error_container"/>
+    <style name="sections_list_fragment_error_message" parent="_sections_list_fragment_error_message"/>
+    <style name="sections_list_fragment_listview" parent="_sections_list_fragment_listview"/>
+    <style name="sections_list_fragment_listview_container" parent="_sections_list_fragment_listview_container"/>
+    <style name="sections_list_fragment_progress" parent="_sections_list_fragment_progress"/>
+    <style name="sections_list_fragment_retry_button" parent="_sections_list_fragment_retry_button"/>
+    <style name="support_activity_progress" parent="_support_activity_progress"/>
+    <style name="support_list_search_editor" parent="_support_list_search_editor"/>
+    <style name="support_list_seperator_body" parent="_support_list_seperator_body"/>
+    <style name="support_list_seperator_border" parent="_support_list_seperator_border"/>
+    <style name="support_list_seperator_container" parent="_support_list_seperator_container"/>
+    <style name="support_search_input_container" parent="_support_search_input_container"/>
+    <style name="view_article_container" parent="_view_article_container"/>
+    <style name="view_article_content_webview" parent="_view_article_content_webview"/>
+    <style name="view_article_details_progress" parent="_view_article_details_progress"/>
+    <style name="view_article_details_textview" parent="_view_article_details_textview"/>
+    <style name="view_article_title_textview" parent="_view_article_title_textview"/>
+    <!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/values/requests_styles.xml -->
+    <eat-comment/>
+    <style name="view_request_agent_avatar_imageview" parent="_view_request_agent_avatar_imageview"/>
+    <style name="view_request_agent_date_textview" parent="_view_request_agent_date_textview"/>
+    <style name="view_request_agent_name_textview" parent="_view_request_agent_name_textview"/>
+    <style name="view_request_agent_response_container" parent="_view_request_agent_response_container"/>
+    <style name="view_request_agent_response_textview" parent="_view_request_agent_response_textview"/>
+    <style name="view_request_agent_row" parent="_view_request_agent_row"/>
+    <style name="view_request_comment_attachment_button" parent="_view_request_comment_attachment_button"/>
+    <style name="view_request_comment_container" parent="_view_request_comment_container"/>
+    <style name="view_request_comment_edittext" parent="_view_request_comment_edittext"/>
+    <style name="view_request_comment_list" parent="_view_request_comment_list"/>
+    <style name="view_request_comment_send_button" parent="_view_request_comment_send_button"/>
+    <style name="view_request_end_user_avatar_imageview" parent="_view_request_end_user_avatar_imageview"/>
+    <style name="view_request_end_user_date_textview" parent="_view_request_end_user_date_textview"/>
+    <style name="view_request_end_user_name_textview" parent="_view_request_end_user_name_textview"/>
+    <style name="view_request_end_user_response_row" parent="_view_request_end_user_response_row"/>
+    <style name="view_request_end_user_response_textview" parent="_view_request_end_user_response_textview"/>
+    <style name="view_request_fragment_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+    <style name="view_request_fragment_progress" parent="_view_request_fragment_progress"/>
+    <style name="view_request_separator" parent="_view_request_separator"/>
+    <style name="view_request_user_info_container" parent="_view_request_user_info_container"/>
+</resources>

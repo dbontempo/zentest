@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <rotate
+             android:drawable="@drawable/spinner_white_20_outer_holo"
+             android:pivotX="50%"
+             android:pivotY="50%"
+             android:fromDegrees="0"
+             android:toDegrees="1080" />
+    </item>
+</layer-list>
+<!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/drawable/progress_small.xml -->
