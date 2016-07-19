@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:tools="http://schemas.android.com/tools"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/activity_support_menu_contact"
+        android:icon="@drawable/ic_conversations"
+        android:visible="false"
+        android:title="@string/support_conversations_menu"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction"/>
+    <item
+        android:id="@+id/activity_support_menu_new_contact"
+        android:icon="@drawable/ic_addticket"
+        android:title="@string/support_contact_menu"
+        android:visible="false"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction"/>
+</menu><!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/menu/activity_support_menu.xml -->
