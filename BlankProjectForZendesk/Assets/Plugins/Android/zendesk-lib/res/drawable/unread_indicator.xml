@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
-    <size android:height="@dimen/request_list_unread_indicator_size"
-          android:width="@dimen/request_list_unread_indicator_size" />
-
-    <solid android:color="@color/request_list_unread_indicator_color" />
-</shape><!-- From: file:/Users/bfahy/android/zendesk/zendesk_sdk_android/ZendeskSDK/src/main/res/drawable/unread_indicator.xml -->
