@@ -13,21 +13,14 @@ public class ZendeskTester: MonoBehaviour
 
 	/** initialize zendesk in the Awake() method of the GameObject a script of yours is attached to */
 	void Awake() {
-		avatarTexture = new Texture2D(textureSize, textureSize);
-		ZendeskSDK.ZDKLogger.Enable (true);
-		ZendeskSDK.ZDKConfig.Initialize (gameObject); // DontDestroyOnLoad automatically called on your supplied gameObject
 
-		//Color test
-//		ZendeskSDK.ZDKSupportView.SetBackgroundColor(new ZenColor(0.7f, 1.0f));
-		ZendeskSDK.ZDKSupportView.SetBackgroundColor(new ZenColor(0.7f, 0f, 0f, 1.0f));
-		ZendeskSDK.ZDKRMAFeedbackView.SetHeaderFont("system", 14);
-		ZendeskSDK.ZDKCreateRequestView.SetAttachmentButtonCornerRadius(0);
-		ZendeskSDK.ZDKCreateRequestView.SetAttachmentButtonBorderWidth(5);
 	}
 
 	/** must include this method for android to behave properly */
 	void OnApplicationPause(bool pauseStatus) {
+		#if !UNITY_EDITOR
 		ZendeskSDK.ZDKConfig.OnApplicationPause (pauseStatus);
+		#endif
 	}
 
 	/** must include this method for any zendesk callbacks to work */
@@ -36,14 +29,32 @@ public class ZendeskTester: MonoBehaviour
 		ZDKConfig.CallbackResponse (results);
 	}
 
+	void Start() {		
+		#if !UNITY_EDITOR
+		avatarTexture = new Texture2D(textureSize, textureSize);
+		ZendeskSDK.ZDKLogger.Enable (true);
+		ZendeskSDK.ZDKConfig.Initialize (gameObject); // DontDestroyOnLoad automatically called on your supplied gameObject
+		//Start zendesk in 1 second.
+		Invoke("StartZendeskHelpCenter", 1.0f);
+		#endif
+	}
+
+	private void StartZendeskHelpCenter() {
+		//Set auth
+		ZendeskSDK.ZDKConfig.AuthenticateAnonymousIdentity("","","");
+
+		//Show help center
+		ZendeskSDK.ZDKHelpCenter.ShowHelpCenter (
+			ZendeskSDK.ZDKHelpCenter.ShowOptions.ListCategories()
+			.SetShowContactUsButton(true));
+		
+	}
+
+
 	void OnEnable() {
 
 	}
-
-	void Update() {
-
-	}
-
+	/*
 	void OnGUI() {
 
 		// 240 is a magical number, derived from a scale factor of 2 looking well on a 480*800 device and 4.5 on a 1080*1920 device
@@ -81,6 +92,11 @@ public class ZendeskTester: MonoBehaviour
 			customFields[customFieldId] = "Something";
 
 			ZendeskSDK.ZDKConfig.SetCustomFields (customFields);
+
+			string customFieldId2 = "end_user_visible";
+			customFields[customFieldId2] = "true";
+
+			ZendeskSDK.ZDKConfig.SetCustomFields (customFields);
 		}
 		if (GUILayout.Button ("Show Help Center", buttonWidth)) {
 			ZendeskSDK.ZDKHelpCenter.ShowHelpCenter (
@@ -107,7 +123,7 @@ public class ZendeskTester: MonoBehaviour
 		if (GUILayout.Button ("Show Requests List", buttonWidth)) {
 			ZendeskSDK.ZDKRequests.ShowRequestList();
 		}
-/*
+
 		if (GUILayout.Button (pushEnabled ? "Disable Push" : "Enable Push", buttonWidth)) {
 			if (!pushEnabled) {
 				ZendeskSDK.ZDKPush.Enable((result, error) => {
@@ -131,7 +147,7 @@ public class ZendeskTester: MonoBehaviour
 				});
 			}
 		}
-		*/
+*/
 
 		/*
 		if (GUILayout.Button ("Show Help Center Section", buttonWidth)) {
@@ -208,16 +224,13 @@ public class ZendeskTester: MonoBehaviour
 			// ZDKLogger Tests
 			ZendeskSDK.ZDKLogger.Enable (true);
 		}
-		*/
 
 		GUI.EndScrollView();
 		GUILayout.EndArea();
 		GUILayout.EndVertical ();
 
-
-
 	}
-
+	*/
 	void RunAppearanceTests() {
 		ZenColor testColor1 = new ZenColor(0.9f, 1.0f); // Random Gray color
 
