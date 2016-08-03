@@ -1,0 +1,15 @@
+build.user.properties
+assets/
+bin-debug/
+bin-release/
+distribute/
+html-template/
+.DS_Store
+.bundle.xml
+_Store
+*.sln
+*.csproj
+*.unityproj
+*.log
+Library/
+Temp/

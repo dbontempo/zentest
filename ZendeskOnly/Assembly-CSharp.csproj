@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\FeedbackScript.cs" />
-     <Compile Include="Assets\ZenCaller.cs" />
+     <Compile Include="Assets\Scripts\ZendeskTester.cs" />
      <Compile Include="Assets\Zendesk\Scripts\ZDKAttachmentView.cs" />
      <Compile Include="Assets\Zendesk\Scripts\ZDKAvatarProvider.cs" />
      <Compile Include="Assets\Zendesk\Scripts\ZDKBaseComponent.cs" />
@@ -86,7 +86,6 @@
      <Compile Include="Assets\Zendesk\Scripts\ZenAppearance.cs" />
      <Compile Include="Assets\Zendesk\Scripts\ZenColor.cs" />
      <Compile Include="Assets\Zendesk\Scripts\ZenJSON.cs" />
-     <Compile Include="Assets\ZendeskTester.cs" />
      <None Include="Assets\Plugins\Android\appcompat-v7-lib\res\values\dimens_material.xml" />
      <None Include="Assets\Plugins\Android\appcompat-v7-lib\res\values-sw600dp\config.xml" />
      <None Include="Assets\Plugins\Android\appcompat-v7-lib\res\values-v12\styles_base.xml" />

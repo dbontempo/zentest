@@ -22,12 +22,7 @@ public class FeedbackScript : MonoBehaviour {
 			zendeskObject.AddComponent<ZendeskTester>();
 		} else {
 			Debug.Log("---- Zendobject exists in scene.");
-		}
-
-		if(zendeskObject != null) {
-//			ZendeskTester tempZenObj = zendeskObject as ZendeskTester;
-//			tempZenObj.OpenHelpCenter();
-//			zendeskObject.OpenHelpCenter();
+//			zendeskObject.GetComponent<ZendeskTester>().CallShowHelpCenter();
 		}
 	}
 }
