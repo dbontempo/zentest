@@ -8,9 +8,9 @@
 #import "UnityAppController.h"
 #import "ZendeskJSON.h"
 
-#define ZENDESK_APP_ID (@"f911da0945cd42c3c768479164b231f2bfc637f61fc0537b")
-#define ZENDESK_URL (@"https://gamesbygsn1457707400.zendesk.com")
-#define ZENDESK_OAUTH (@"mobile_sdk_client_24aea797ac7999561408")
+#define ZENDESK_APP_ID (@"f84ab282c278312afe432c7a688781bbb7bd19c514ee526e")
+#define ZENDESK_URL (@"https://gamesbygsn.zendesk.com")
+#define ZENDESK_OAUTH (@"mobile_sdk_client_fa68cc9373780f4ffdee")
 
 extern void UnitySendMessage(const char *className, const char *methodName, const char *param);
 

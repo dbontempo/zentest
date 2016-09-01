@@ -10,10 +10,10 @@
     <string name="title_activity_rate_my_app">RateMyAppActivity</string>
     <!-- From: file:/Users/dbontempo/Documents/GitHub/sdk_unity_plugin/android-plugin/src/main/res/values/zdk.xml -->
     <eat-comment/>
-    <string name="zd_appid">f911da0945cd42c3c768479164b231f2bfc637f61fc0537b</string>
+    <string name="zd_appid">f84ab282c278312afe432c7a688781bbb7bd19c514ee526e</string>
     <string name="zd_gcm">GCM_SENDER_ID</string>
-    <string name="zd_oauth">mobile_sdk_client_24aea797ac7999561408</string>
-    <string name="zd_url">https://gamesbygsn1457707400.zendesk.com</string>
+    <string name="zd_oauth">mobile_sdk_client_fa68cc9373780f4ffdee</string>
+    <string name="zd_url">https://gamesbygsn.zendesk.com</string>
     <string name="zd_usepush">false</string>
     <string name="zd_useuapush">false</string>
     <style name="ZendeskInvisible" parent="@style/Theme.AppCompat.NoActionBar">

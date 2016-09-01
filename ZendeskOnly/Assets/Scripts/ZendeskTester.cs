@@ -11,11 +11,9 @@ public class ZendeskTester: MonoBehaviour
 {
 
 	/** initialize zendesk in the Awake() method of the GameObject a script of yours is attached to */
-	void Awake() {
+	void Start() {
 		ZendeskSDK.ZDKConfig.Initialize (gameObject); // DontDestroyOnLoad automatically called on your supplied gameObject
-		ZendeskSDK.ZDKConfig.AuthenticateAnonymousIdentity("", "davidbon@yahoo.com", "");
-		//Wait a beat to initialize. Then show Help Center.
-		Invoke("CallShowHelpCenter", 0.5f);
+		ZendeskSDK.ZDKConfig.AuthenticateAnonymousIdentity(null, null, null);
 	}
 
 	public void CallShowHelpCenter() {
@@ -41,12 +39,13 @@ public class ZendeskTester: MonoBehaviour
 	}
 
 	// Zendesk's test buttons.
-	/*
 	void OnGUI() {
 		GUI.matrix = Matrix4x4.Scale (new Vector3 (5, 5, 5));
 
 		if (GUILayout.Button ("Help Center")) {
-			ZendeskSDK.ZDKHelpCenter.ShowHelpCenter ();
+			ZendeskSDK.ZDKHelpCenter.ShowHelpCenter (
+				ZendeskSDK.ZDKHelpCenter.ShowOptions.ListCategories()
+				.SetShowContactUsButton(true));
 		}
 
 		if (GUILayout.Button ("Request Creation")) {
@@ -61,9 +60,10 @@ public class ZendeskTester: MonoBehaviour
 			ZendeskSDK.ZDKRMA.ShowAlways ();
 		}
 	}
-	*/
 
 	void OnDisable() {
 		
 	}
+
+
 }
